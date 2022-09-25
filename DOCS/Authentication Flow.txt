@@ -1,0 +1,29 @@
+title Authentication Flow
+
+
+participant Client
+participant GQL API
+participant Controller
+participant MongoDB
+
+Client->GQL API:createUser Mutation\npayload createUserInputType
+
+
+GQL API->Controller:CreateUser Controller\n\nChecks if email exists in DB. If no user hashes Password and uses Prisma ORM to perform a Create operation
+
+Controller->MongoDB:Creates a new user object in the User Collection
+
+MongoDB->Client:Sends User Object to Client
+
+Client->GQL API:signInUser Mutation\npayload loginUserInputType
+
+
+GQL API->Controller:CreateUser Controller\n\nChecks if email exists in DB. If user exist. Hashes and compares sums to existing users password.\n
+
+Controller->MongoDB:Fetches object in the User Collection
+
+MongoDB->Controller:Sends User Object to Controller
+
+Controller->GQL API: Creates a JSON Web Token (JWT) from user object
+
+GQL API->Client: Stores Access Token in Client Cookies

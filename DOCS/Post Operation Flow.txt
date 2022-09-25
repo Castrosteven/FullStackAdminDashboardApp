@@ -1,0 +1,24 @@
+title Post Operation Flow
+
+
+participant Client
+participant GQL API
+participant Controller
+participant MongoDB
+participant PubSub
+
+Client ->PubSub:Establishes WEB SOCKET Connection
+
+Client->GQL API:createEmployee Mutation\npayload createEmployeeInput\nAuthorization AccessToken (from cookies)
+
+
+GQL API->Controller:CreateEmployee Controller\n\n1. Fetches User from Mongo using id from JWT Token\n2. Fetches Company by USER ID\n3. Creates a new Employee and joins it with Company ID\n
+
+
+Controller->MongoDB:Creates a new object in the Employee Collection
+
+MongoDB->Client:Sends Employee Object to Client
+
+GQL API->PubSub:4. PUBLISHES NEW_EMPLOYEE SUBSCRIPTION 
+
+PubSub->Client: Client Remounts components with subscription payload 
