@@ -11,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.4.0",
-    "react-icons": "^4.4.0"
+    "concurrently": "^7.4.0"
   },
   "devDependencies": {
     "@types/react-table": "^7.7.12"
