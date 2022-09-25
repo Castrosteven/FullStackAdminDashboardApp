@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"cd server && npm run start\" \"cd client && npm run build && npm run start \"",
-    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev \""
+    "start": "concurrently \"cd AdminDashboardServer && npm i && npm run start\" \"cd AdminDashboardClient && npm i && npm run build && npm run start \"",
+    "dev": "concurrently \"cd AdminDashboardServer && npm run dev\" \"cd AdminDashboardClient && npm run dev \""
   },
   "keywords": [],
   "author": "",
