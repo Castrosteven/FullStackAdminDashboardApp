@@ -1,3 +1,6 @@
 [submodule "AdminDashboardClient"]
 	path = AdminDashboardClient
 	url = git@github.com:Castrosteven/AdminDashboardClient.git
+[submodule "AdminDashboardServer"]
+	path = AdminDashboardServer
+	url = https://github.com/Castrosteven/AdminDashboardServer.git
