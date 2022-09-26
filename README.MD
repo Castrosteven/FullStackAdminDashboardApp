@@ -7,7 +7,11 @@ Clone this Repository using the --recursive Flag
 ```
 git clone https://github.com/Castrosteven/FullStackAdminDashboardApp  --recursive
 ```
+```bash
 
+npm i
+
+```
 ```bash
 
 npm run start
