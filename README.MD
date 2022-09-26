@@ -18,3 +18,18 @@ React Icons
 1. This is a Apollo Server GraphQL Api, using the Express MiddleWare.
 2. The GQL SDL Schema is generate using Nexus & Typescript
 3. Uses PRISMA ORM (Object Relational Mapper) to query a NoSQL MongoDB Database in the cloud.
+
+**SCHEMA DESIGN**
+
+
+![alt text](https://github.com/Castrosteven/FullStackAdminDashboardApp/blob/main/DOCS/DB.png)
+
+**Auth Flow **
+
+
+![alt text](https://github.com/Castrosteven/FullStackAdminDashboardApp/blob/main/DOCS/Authentication%20Flow.png)
+
+**Post Flow **
+
+
+![alt text](https://github.com/Castrosteven/FullStackAdminDashboardApp/blob/main/DOCS/Post%20Operation%20Flow.png)
