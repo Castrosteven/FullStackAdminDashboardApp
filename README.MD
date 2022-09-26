@@ -24,12 +24,12 @@ React Icons
 
 ![alt text](https://github.com/Castrosteven/FullStackAdminDashboardApp/blob/main/DOCS/DB.png)
 
-**Auth Flow **
+**Auth Flow**
 
 
 ![alt text](https://github.com/Castrosteven/FullStackAdminDashboardApp/blob/main/DOCS/Authentication%20Flow.png)
 
-**Post Flow **
+**Post Flow**
 
 
 ![alt text](https://github.com/Castrosteven/FullStackAdminDashboardApp/blob/main/DOCS/Post%20Operation%20Flow.png)
