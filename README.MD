@@ -1,8 +1,12 @@
 Admin Dashboard Full Stack Application
 
-How to RUN:
+How to Run it locally:
 
-Clone this Repository
+Clone this Repository using the --recursive Flag
+
+```
+git clone https://github.com/Castrosteven/FullStackAdminDashboardApp  --recursive
+```
 
 ```bash
 
