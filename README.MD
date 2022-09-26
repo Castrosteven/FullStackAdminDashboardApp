@@ -10,6 +10,9 @@ npm run start
 
 ```
 
+1. Client will run on localhost:3000
+2. GQL will run on localhost:5000/graphql
+
 **The Client Side Application**
 :
 
