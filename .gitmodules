@@ -1,0 +1,6 @@
+[submodule "AdminDashboardClient"]
+	path = AdminDashboardClient
+	url = https://github.com/Castrosteven/AdminDashboardClient
+[submodule "AdminDashboardServer"]
+	path = AdminDashboardServer
+	url = https://github.com/Castrosteven/AdminDashboardServer
