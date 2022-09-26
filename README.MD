@@ -1,5 +1,15 @@
 Admin Dashboard Full Stack Application
 
+How to RUN:
+
+Clone this Repository
+
+```bash
+
+npm run start
+
+```
+
 **The Client Side Application**
 :
 
