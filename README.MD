@@ -3,10 +3,10 @@ Admin Dashboard Full Stack Application
 **The Client Side Application**
 :
 
-Built using Next JS Framework with SSR Rendered Pages.
-Data fetching using GraphQL Apollo Client
-Central State using createContext() & useContext()
-Styled with Tailwind CSS
+1. Built using Next JS Framework with SSR Rendered Pages.
+2. Data fetching using GraphQL Apollo Client
+3. Central State using createContext() & useContext()
+4. Styled with Tailwind CSS
 
 Other Project Dependencies
 
@@ -15,6 +15,6 @@ React Icons
 
 **The Server Side Application**
 
-This is a Apollo Server GraphQL Api, using the Express MiddleWare.
-The GQL SDL Schema is generate using Nexus & Typescript
-Uses PRISMA ORM (Object Relational Mapper) to query a NoSQL MongoDB Database in the cloud.
+1. This is a Apollo Server GraphQL Api, using the Express MiddleWare.
+2. The GQL SDL Schema is generate using Nexus & Typescript
+3. Uses PRISMA ORM (Object Relational Mapper) to query a NoSQL MongoDB Database in the cloud.
