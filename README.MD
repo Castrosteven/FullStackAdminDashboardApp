@@ -18,6 +18,11 @@ npm run start
 
 ```
 
+**Architecture**
+
+
+![alt text](https://github.com/Castrosteven/FullStackAdminDashboardApp/blob/main/DOCS/Architecture.png)
+
 1. Client will run on localhost:3000
 2. GQL will run on localhost:5000/graphql
 
